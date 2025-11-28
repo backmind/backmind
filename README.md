@@ -129,5 +129,5 @@ A four-layer architecture for personal infrastructure → [**backmind/tutorials*
 ---
 
 <div align="center">
-  <img src="metrics.svg" alt="Metrics" />
+  <img src="github-metrics.svg" alt="Metrics" />
 </div>
