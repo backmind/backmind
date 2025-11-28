@@ -1,0 +1,55 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 4 * * 0"  # Domingos 4:00 AM (Madrid)
+  workflow_dispatch:
+  push:
+    branches: ["master", "main"]
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: backmind
+          template: classic
+          base: header, activity, repositories, metadata
+          config_octicon: yes
+          config_timezone: Europe/Madrid
+
+          # Introduction
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+
+          # Languages
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_details: percentage
+          plugin_languages_ignored: html, css, javascript, typescript
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+
+          # Stars
+          plugin_stars: yes
+          plugin_stars_limit: 4
+
+          # Steam
+          plugin_steam: yes
+          plugin_steam_user: 76561197960991564
+          plugin_steam_sections: player, most-played, recently-played
+          plugin_steam_achievements_limit: 2
+          plugin_steam_games_limit: 1
+          plugin_steam_recent_games_limit: 1
+          plugin_steam_playtime_threshold: 2
