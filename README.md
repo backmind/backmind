@@ -51,19 +51,19 @@ A four-layer architecture for personal infrastructure → [**backmind/tutorials*
 ┌─────────────────────────────────────────────────────────────┐
 │  Layer 4: Services        │  HDA-DOCKER        │  🚧        │
 ├───────────────────────────┼────────────────────┼────────────┤
-│  Layer 3: Interface       │  [HDA-TERM](https://github.com/backmind/tutorials/blob/main/hda-term.md)          │  ✅        │
+│  Layer 3: Interface       │  HDA-TERM          │  ✅        │
 ├───────────────────────────┼────────────────────┼────────────┤
-│  Layer 2: Compute         │  [HDA-SERV](https://github.com/backmind/tutorials/blob/main/hda-serv.md)          │  ✅        │
+│  Layer 2: Compute         │  HDA-SERV          │  ✅        │
 ├───────────────────────────┼────────────────────┼────────────┤
-│  Layer 1: Storage         │  [HDA-NAS](https://github.com/backmind/tutorials/blob/main/hda-nas.md)           │  ✅        │
+│  Layer 1: Storage         │  HDA-NAS           │  ✅        │
 └─────────────────────────────────────────────────────────────┘
 ```
 
 | Guide | Covers |
 |-------|--------|
-| **HDA-NAS** | Synology DS920+ setup, disk selection, RAID/SHR-2, hardware testing |
-| **HDA-SERV** | Debian 12 headless: SSH hardening, ZFS, Samba, Docker rootless, CUDA, Pi-Hole |
-| **HDA-TERM** | Windows Terminal + PowerShell 7: Oh My Posh, fzf, z, UV, productivity aliases |
+| **[HDA-NAS](https://github.com/backmind/tutorials/blob/main/hda-nas.md)** | Synology DS920+ setup, disk selection, RAID/SHR-2, hardware testing |
+| **[HDA-SERV](https://github.com/backmind/tutorials/blob/main/hda-serv.md)** | Debian 12 headless: SSH hardening, ZFS, Samba, Docker rootless, CUDA, Pi-Hole |
+| **[HDA-TERM](https://github.com/backmind/tutorials/blob/main/hda-term.md)** | Windows Terminal + PowerShell 7: Oh My Posh, fzf, z, UV, productivity aliases |
 | **HDA-DOCKER** | Microservices stack *(in progress)* |
 
 ---
