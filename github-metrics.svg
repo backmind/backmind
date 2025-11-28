@@ -193,49 +193,13 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="447.5219744834579" height="8" fill="#DA5B0B"/>
-                    <rect mask="url(#languages-bar)" x="447.5219744834579" y="0" width="9.365514474701145" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="456.887488958159" y="0" width="2.9996703673513783" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="459.88715932551037" y="0" width="0.0566164681969871" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="459.9437757937074" y="0" width="0.05204007931270408" height="8" fill="#384d54"/>
-                    <rect mask="url(#languages-bar)" x="459.9958158730201" y="0" width="0.004184126979915906" height="8" fill="#C1F12E"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="345.2578817579132" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="345.2578817579132" y="0" width="110.58226857705715" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="455.8401503349704" y="0" width="2.087155162175945" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="457.92730549714634" y="0" width="1.9184474700832013" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="459.8457529672295" y="0" width="0.15424703277050864" height="8" fill="#C1F12E"/>
                 </svg>
                 <div class="row fill-width">
-                    <section>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#DA5B0B" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                Jupyter Notebook
-                            </div>
-                            <small>
-                                <div>97.29%</div>
-                            </small>
-                        </div>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#012456" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                PowerShell
-                            </div>
-                            <small>
-                                <div>0.65%</div>
-                            </small>
-                        </div>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#384d54" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                Dockerfile
-                            </div>
-                            <small>
-                                <div>0.01%</div>
-                            </small>
-                        </div>
-                    </section>
                     <section>
                         <div class="field language details">
                             <div class="field">
@@ -245,7 +209,7 @@
                                 Python
                             </div>
                             <small>
-                                <div>2.04%</div>
+                                <div>75.06%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -256,7 +220,7 @@
                                 Shell
                             </div>
                             <small>
-                                <div>0.01%</div>
+                                <div>0.45%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -267,7 +231,31 @@
                                 Batchfile
                             </div>
                             <small>
-                                <div>0%</div>
+                                <div>0.03%</div>
+                            </small>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="field language details">
+                            <div class="field">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                    <path fill="#012456" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                </svg>
+                                PowerShell
+                            </div>
+                            <small>
+                                <div>24.04%</div>
+                            </small>
+                        </div>
+                        <div class="field language details">
+                            <div class="field">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                    <path fill="#384d54" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                </svg>
+                                Dockerfile
+                            </div>
+                            <small>
+                                <div>0.42%</div>
                             </small>
                         </div>
                     </section>
@@ -660,7 +648,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 28 Nov 2025, 21:38:11 (timezone Europe/Madrid) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 28 Nov 2025, 21:40:36 (timezone Europe/Madrid) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
