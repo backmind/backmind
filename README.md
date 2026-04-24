@@ -89,7 +89,7 @@ flowchart TB
 | Project | Description |
 |---------|-------------|
 | [autoRICEWQ](https://github.com/backmind/autoRICEWQ) | Batch handler for RICEWQ hydric simulations — scales from dozens to tens of thousands of runs. **Used in 2 peer-reviewed papers.** |
-| [Valencia-BFN](https://github.com/backmind/Valencia-BFN) | IBM Data Science capstone: socioeconomic analysis for relocation in Valencia |
+| [EspeciesInvasoras-MITECO](https://github.com/backmind/EspeciesInvasoras-MITECO) | Web scraping + PDF/GIS processing of Spain's MITECO invasive species registry |
 
 ---
 
