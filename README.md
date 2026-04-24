@@ -7,7 +7,6 @@
 [![Blog](https://img.shields.io/badge/Blog-yassfuentes.es-FF5D01?style=flat&logo=astro&logoColor=white)](https://yassfuentes.es)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YassFuentes)
 [![Newsletter](https://img.shields.io/badge/Newsletter-Buttondown-0069FF?style=flat&logoColor=white)](https://buttondown.com/yassfuentes)
-[![X](https://img.shields.io/badge/@backmind-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/backmind)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0000-0003-3541-7730)
 [![Scholar](https://img.shields.io/badge/Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.es/citations?user=nPHiLFUAAAAJ)
 
